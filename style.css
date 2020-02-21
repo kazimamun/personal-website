@@ -1,6 +1,79 @@
 body{
     margin: 0px;
+    font-family: 'Lato';
 }
-.hello_class{
-    width: auto;
+.fifty-percent{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.total_position{    
+    padding-top: 20px;
+}
+.left_position{
+    padding-top: 167px;
+    margin-left: 20px;
+    position: relative;
+}
+.fifty-percent img{
+    width: 100%;
+}
+#hello{
+    height: 755px;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+}
+section{
+    height: 500px;
+}
+.link_button{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color:white;
+}
+.my_name{
+    color: fuchsia;
+}
+.biography{
+    height: 800px;
+    display: block;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%;
+}
+.left_biography img{
+    width: 80%;
+    margin-top: 83px;
+    margin-left: 36px;
+}
+.right_biography{
+    margin-top: 190px;
+}
+.my_latest_work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    margin-top: 666px;
+    height: 350px;
+}
+.my_latest_work h3{
+    text-align: center;
+}
+.our_images{
+    text-align: center;
+    padding-top: 30px;
+}
+.our_images img{
+    width:20%;
+    padding-left: 40px;
+}
+.client{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    height: 350px;
 }
